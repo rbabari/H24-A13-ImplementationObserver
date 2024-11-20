@@ -1,7 +1,11 @@
-public class MessageSubscriber3 implements Observer{
+package MessageSubsriber;
+
+import utils.Observer;
+
+public class MessageSubscriber3 implements Observer {
     @Override
     public void update(Message m) {
 
-        System.out.println("Message subscriber 3 : " + m.getMessage() );
+        System.out.println("utils.Message subscriber 3 : " + m.getMessage() );
     }
 }
