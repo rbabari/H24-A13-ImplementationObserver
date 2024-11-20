@@ -1,6 +1,7 @@
 package MessageSubsriber;
 
 import utils.Observer;
+import utils.Message;
 
 public class MessageSubscriber2 implements Observer {
     @Override

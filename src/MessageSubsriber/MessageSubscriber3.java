@@ -1,5 +1,5 @@
 package MessageSubsriber;
-
+import utils.Message;
 import utils.Observer;
 
 public class MessageSubscriber3 implements Observer {

@@ -2,6 +2,7 @@ package MessagePublisher;
 
 import utils.Observable;
 import utils.Observer;
+import utils.Message;
 
 import java.util.ArrayList;
 import java.util.List;
